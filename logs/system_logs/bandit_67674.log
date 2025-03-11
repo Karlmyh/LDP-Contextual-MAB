@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/yuheng.ma/LDP-MAB/run.py", line 19, in <module>
+    run_base_order_auxiliary()
+  File "/home/yuheng.ma/LDP-MAB/scripts/order_of_auxiliary.py", line 271, in run_base_order_auxiliary
+    print("epsilon: {}, epsilon_m: {}, gamma: {}, n: {}, n_m: {}, d: {}, M: {}, K: {}, if_weighted: {}".format(epsilon, epsilon_m, gamma, n, n_m, d, M, K, if_weighted))
+                                                                                                                        ^^^^^^^^^
+NameError: name 'epsilon_m' is not defined
